@@ -8,7 +8,8 @@ function App() {
     return ( 
       <>
       <SideBar />
-      <HomeCards/>
+      <HomeCards id={'91598612'}/>
+      <HomeCards id={'119606'}/>
       <PlayBar />
       </>
     );
