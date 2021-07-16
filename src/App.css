@@ -99,3 +99,10 @@
         overflow: hidden;
         white-space: nowrap;
     }
+    
+    .card-anchor {
+        font-size: smaller;
+        align-items: center;
+        color: white;
+        display: flex;
+    }

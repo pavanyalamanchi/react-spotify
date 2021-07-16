@@ -6,8 +6,8 @@ const CardComp = (props) => (
         <Card.Img variant="top" src={props.image}/>
         <Card.Body>
           <Card.Title className='text-white text-ellipsis'>{props.title}</Card.Title>
-          <Card.Text className='text-ellipsis text-white' >
-            some
+          <Card.Text className='text-ellipsis text-muted' >
+            {props.desc}
           </Card.Text>
         </Card.Body>
       </Card>
